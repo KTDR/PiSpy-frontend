@@ -1,0 +1,11 @@
+{
+    "command": "ADD_USER",
+    "passkey": "",
+    "replying": false,
+    "payload": {
+        "name": "John Smith",
+        "age": "34",
+        "image": "",
+        "access_level": "2"
+    }
+}

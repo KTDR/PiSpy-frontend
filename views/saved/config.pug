@@ -1,0 +1,313 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, shrink-to-fit=no')
+    title Profile - Brand
+    link(rel='stylesheet', href='assets/bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i')
+    link(rel='stylesheet', href='assets/fonts/fontawesome-all.min.css')
+  body#page-top
+    #wrapper
+      nav.navbar.navbar-light.navbar-expand-md.align-items-start.sidebar.sidebar-dark.accordion.bg-gradient-primary.p-0(style='max-width: 212px;')
+        .container-fluid.d-flex.flex-column.p-0
+          a.navbar-brand.d-flex.justify-content-center.align-items-center.sidebar-brand.m-0(href='#')
+            .sidebar-brand-icon.rotate-n-15
+              i.fas.fa-laugh-wink
+            .sidebar-brand-text.mx-3
+              span Cypi Team 4
+          hr.sidebar-divider.my-0
+          ul#accordionSidebar.nav.navbar-nav.text-light
+            li.nav-item(role='presentation')
+              a.nav-link(href='index.html')
+                i.fas.fa-tachometer-alt
+                span Dashboard
+            li.nav-item(role='presentation')
+              a.nav-link.active(href='config.html')
+                i.fas.fa-cog
+                span Configuration
+            li.nav-item(role='presentation')
+              a.nav-link(href='table.html')
+                i.fas.fa-table
+                span Table
+            li.nav-item(role='presentation')
+              a.nav-link(href='login.html')
+                i.far.fa-user-circle
+                span Login
+            li.nav-item(role='presentation')
+              a.nav-link(href='register.html')
+                i.fas.fa-user-circle
+                span Register
+            li.nav-item(role='presentation')
+              a.nav-link(href='404.html')
+                i.fas.fa-database
+                span Database Management
+            li.nav-item(role='presentation')
+              a.nav-link(href='logging.html')
+                i.fas.fa-list
+                span Logging
+          .text-center.d-none.d-md-inline
+            button#sidebarToggle.btn.rounded-circle.border-0(type='submit')
+      #content-wrapper.d-flex.flex-column
+        #content
+          nav.navbar.navbar-light.navbar-expand.bg-white.shadow.mb-4.topbar.static-top
+            .container-fluid
+              button#sidebarToggleTop.btn.btn-link.d-md-none.rounded-circle.mr-3(type='button')
+                i.fas.fa-bars
+              ul.nav.navbar-nav.flex-nowrap.ml-auto
+                li.nav-item.dropdown.d-sm-none.no-arrow
+                  a.dropdown-toggle.nav-link(data-toggle='dropdown', aria-expanded='false', href='#')
+                    i.fas.fa-search
+                  .dropdown-menu.dropdown-menu-right.p-3.animated--grow-in(role='menu', aria-labelledby='searchDropdown')
+                    form.form-inline.mr-auto.navbar-search.w-100
+                      .input-group
+                        input.bg-light.form-control.border-0.small(type='text', placeholder='Search for ...')
+                        .input-group-append
+                          button.btn.btn-primary.py-0(type='button')
+                            i.fas.fa-search
+                li.nav-item.dropdown.no-arrow.mx-1(role='presentation')
+                  .nav-item.dropdown.no-arrow
+                    a.dropdown-toggle.nav-link(data-toggle='dropdown', aria-expanded='false', href='#')
+                      span.badge.badge-danger.badge-counter 3+
+                      i.fas.fa-bell.fa-fw
+                    .dropdown-menu.dropdown-menu-right.dropdown-list.dropdown-menu-right.animated--grow-in(role='menu')
+                      h6.dropdown-header alerts center
+                      a.d-flex.align-items-center.dropdown-item(href='#')
+                        .mr-3
+                          .bg-primary.icon-circle
+                            i.fas.fa-file-alt.text-white
+                        div
+                          span.small.text-gray-500 December 12, 2019
+                          p A new monthly report is ready to download!
+                      a.d-flex.align-items-center.dropdown-item(href='#')
+                        .mr-3
+                          .bg-success.icon-circle
+                            i.fas.fa-donate.text-white
+                        div
+                          span.small.text-gray-500 December 7, 2019
+                          p $290.29 has been deposited into your account!
+                      a.d-flex.align-items-center.dropdown-item(href='#')
+                        .mr-3
+                          .bg-warning.icon-circle
+                            i.fas.fa-exclamation-triangle.text-white
+                        div
+                          span.small.text-gray-500 December 2, 2019
+                          p Spending Alert: We've noticed unusually high spending for your account.
+                      a.text-center.dropdown-item.small.text-gray-500(href='#') Show All Alerts
+                li.nav-item.dropdown.no-arrow.mx-1(role='presentation')
+                  .nav-item.dropdown.no-arrow
+                    a.dropdown-toggle.nav-link(data-toggle='dropdown', aria-expanded='false', href='#')
+                      i.fas.fa-envelope.fa-fw
+                      span.badge.badge-danger.badge-counter 7
+                    .dropdown-menu.dropdown-list.dropdown-menu-right.animated--grow-in(role='menu')
+                      h5.dropdown-header alerts center
+                      a.d-flex.align-items-center.dropdown-item(href='#')
+                        .dropdown-list-image.mr-3
+                          img.rounded-circle(src='assets/img/avatars/avatar4.jpeg')
+                          .bg-success.status-indicator
+                        .font-weight-bold
+                          .text-truncate
+                            span Hi there! I am wondering if you can help me with a problem I've been having.
+                          p.small.text-gray-500.mb-0 Emily Fowler - 58m
+                      a.d-flex.align-items-center.dropdown-item(href='#')
+                        .dropdown-list-image.mr-3
+                          img.rounded-circle(src='assets/img/avatars/avatar2.jpeg')
+                          .status-indicator
+                        .font-weight-bold
+                          .text-truncate
+                            span I have the photos that you ordered last month!
+                          p.small.text-gray-500.mb-0 Jae Chun - 1d
+                      a.d-flex.align-items-center.dropdown-item(href='#')
+                        .dropdown-list-image.mr-3
+                          img.rounded-circle(src='assets/img/avatars/avatar3.jpeg')
+                          .bg-warning.status-indicator
+                        .font-weight-bold
+                          .text-truncate
+                            span
+                              | Last month's report looks great, I am very happy with the progress so far, keep up the good work!
+                          p.small.text-gray-500.mb-0 Morgan Alvarez - 2d
+                      a.d-flex.align-items-center.dropdown-item(href='#')
+                        .dropdown-list-image.mr-3
+                          img.rounded-circle(src='assets/img/avatars/avatar5.jpeg')
+                          .bg-success.status-indicator
+                        .font-weight-bold
+                          .text-truncate
+                            span
+                              | Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...
+                          p.small.text-gray-500.mb-0 Chicken the Dog · 2w
+                      a.text-center.dropdown-item.small.text-gray-500(href='#') Show All Alerts
+                  .shadow.dropdown-list.dropdown-menu.dropdown-menu-right(aria-labelledby='alertsDropdown')
+                .d-none.d-sm-block.topbar-divider
+                li.nav-item.dropdown.no-arrow(role='presentation')
+                  .nav-item.dropdown.no-arrow
+                    a.dropdown-toggle.nav-link(data-toggle='dropdown', aria-expanded='false', href='#')
+                      span.d-none.d-lg-inline.mr-2.text-gray-600.small Current User
+                      img.border.rounded-circle(src='assets/img/avatars/user.svg')
+                    .dropdown-menu.shadow.dropdown-menu-right.animated--grow-in(role='menu')
+                      a.dropdown-item(role='presentation', href='#')
+                        i.fas.fa-user.fa-sm.fa-fw.mr-2.text-gray-400
+                        |  Profile
+                      a.dropdown-item(role='presentation', href='#')
+                        i.fas.fa-cogs.fa-sm.fa-fw.mr-2.text-gray-400
+                        |  Settings
+                      a.dropdown-item(role='presentation', href='#')
+                        i.fas.fa-list.fa-sm.fa-fw.mr-2.text-gray-400
+                        |  Activity log
+                      .dropdown-divider
+                      a.dropdown-item(role='presentation', href='#')
+                        i.fas.fa-sign-out-alt.fa-sm.fa-fw.mr-2.text-gray-400
+                        |  Logout
+          .container-fluid
+            h3.text-dark.mb-4 Configuration
+            .row.mb-3
+              .col-lg-4
+                .card.mb-3
+                  .card-body.text-center.shadow
+                    img.rounded-circle.mb-3.mt-4(src='assets/img/avatars/user.svg', width='160', height='160')
+                    .mb-3
+                      button.btn.btn-primary.btn-sm(type='button') Change Photo
+                .card.shadow.mb-4
+                  .card-header.py-3
+                    h6.text-primary.font-weight-bold.m-0 Projects
+                  .card-body
+                    h4.small.font-weight-bold
+                      | Server migration
+                      span.float-right 20%
+                    .progress.progress-sm.mb-3
+                      .progress-bar.bg-danger(aria-valuenow='20', aria-valuemin='0', aria-valuemax='100', style='width: 20%;')
+                        span.sr-only 20%
+                    h4.small.font-weight-bold
+                      | Sales tracking
+                      span.float-right 40%
+                    .progress.progress-sm.mb-3
+                      .progress-bar.bg-warning(aria-valuenow='40', aria-valuemin='0', aria-valuemax='100', style='width: 40%;')
+                        span.sr-only 40%
+                    h4.small.font-weight-bold
+                      | Customer Database
+                      span.float-right 60%
+                    .progress.progress-sm.mb-3
+                      .progress-bar.bg-primary(aria-valuenow='60', aria-valuemin='0', aria-valuemax='100', style='width: 60%;')
+                        span.sr-only 60%
+                    h4.small.font-weight-bold
+                      | Payout Details
+                      span.float-right 80%
+                    .progress.progress-sm.mb-3
+                      .progress-bar.bg-info(aria-valuenow='80', aria-valuemin='0', aria-valuemax='100', style='width: 80%;')
+                        span.sr-only 80%
+                    h4.small.font-weight-bold
+                      | Account setup
+                      span.float-right Complete!
+                    .progress.progress-sm.mb-3
+                      .progress-bar.bg-success(aria-valuenow='100', aria-valuemin='0', aria-valuemax='100', style='width: 100%;')
+                        span.sr-only 100%
+              .col-lg-8
+                .row.mb-3.d-none
+                  .col
+                    .card.text-white.bg-primary.shadow
+                      .card-body
+                        .row.mb-2
+                          .col
+                            p.m-0 Peformance
+                            p.m-0
+                              strong 65.2%
+                          .col-auto
+                            i.fas.fa-rocket.fa-2x
+                        p.text-white-50.small.m-0
+                          i.fas.fa-arrow-up
+                          |  5% since last month
+                  .col
+                    .card.text-white.bg-success.shadow
+                      .card-body
+                        .row.mb-2
+                          .col
+                            p.m-0 Peformance
+                            p.m-0
+                              strong 65.2%
+                          .col-auto
+                            i.fas.fa-rocket.fa-2x
+                        p.text-white-50.small.m-0
+                          i.fas.fa-arrow-up
+                          |  5% since last month
+                .row
+                  .col
+                    .card.shadow.mb-3
+                      .card-header.py-3
+                        p.text-primary.m-0.font-weight-bold Admin Settings
+                      .card-body
+                        form
+                          .form-row
+                            .col
+                              .form-group
+                                label(for='username')
+                                  strong Username
+                                input.form-control(type='text', placeholder='user.name', name='username')
+                            .col
+                              .form-group
+                                label(for='email')
+                                  strong Password
+                                input.form-control(type='password', placeholder='Enter new password')
+                          .form-row
+                            .col
+                              .form-group
+                                label(for='first_name')
+                                  strong First Name
+                                input.form-control(type='text', placeholder='John', name='first_name')
+                            .col
+                              .form-group
+                                label(for='last_name')
+                                  strong Last Name
+                                input.form-control(type='text', placeholder='Doe', name='last_name')
+                          .form-group
+                            button.btn.btn-primary.btn-sm(type='submit') Save Settings
+                    .card.shadow
+                      .card-header.py-3
+                        p.text-primary.m-0.font-weight-bold Contact Settings
+                      .card-body
+                        form
+                          .form-group
+                            label(for='address')
+                              strong Address
+                            input.form-control(type='text', placeholder='Sunset Blvd, 38', name='address')
+                          .form-row
+                            .col
+                              .form-group
+                                label(for='city')
+                                  strong City
+                                input.form-control(type='text', placeholder='Los Angeles', name='city')
+                            .col
+                              .form-group
+                                label(for='country')
+                                  strong Country
+                                input.form-control(type='text', placeholder='USA', name='country')
+                          .form-group
+                            button.btn.btn-primary.btn-sm(type='submit') Save Settings
+            .card.shadow.mb-5
+              .card-header.py-3
+                p.text-primary.m-0.font-weight-bold Forum Settings
+              .card-body
+                .row
+                  .col-md-6
+                    form
+                      .form-group
+                        label(for='signature')
+                          strong Signature
+                          br
+                        textarea.form-control(rows='4', name='signature')
+                      .form-group
+                        .custom-control.custom-switch
+                          input#formCheck-1.custom-control-input(type='checkbox')
+                          label.custom-control-label(for='formCheck-1')
+                            strong Notify me about new replies
+                      .form-group
+                        button.btn.btn-primary.btn-sm(type='submit') Save Settings
+        footer.bg-white.sticky-footer
+          .container.my-auto
+            .text-center.my-auto.copyright
+      a.border.rounded.d-inline.scroll-to-top(href='#page-top')
+        i.fas.fa-angle-up
+    script(src='assets/js/jquery.min.js')
+    script(src='assets/bootstrap/js/bootstrap.min.js')
+    script(src='assets/js/chart.min.js')
+    script(src='assets/js/bs-init.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js')
+    script(src='assets/js/theme.js')

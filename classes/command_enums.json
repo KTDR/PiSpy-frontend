@@ -1,0 +1,19 @@
+{
+    "UNSPECIFIED": "unspecified", 
+    "ADD_USER": "add_user",
+    "DELETE_USER": "delete_user",
+    "UPDATE_USER": "update_user",
+    "DELETE_ALL_USERS": "delete_all_users",
+    "GET_LOG_JSON": "get_log_json", 
+    "ADD_DOCUMENT": "add_document",
+    "DELETE_DOCUMENT": "delete_document",   
+    "GET_DOCUMENT": "get_document", 
+    "GET_CAM_STREAM": "get_camera_stream",  
+    "UPDATE_CONFIG": "update_config",
+    "GET_UPTIME": "get_uptime",
+    "WEBCAM_STREAM_FRAME": "webcam_stream_frame",   
+    "KEEPALIVE": "keepalive",
+
+    "EVENT_UNAUTHORIZED_USER": "event_unauthorized_user",
+    "EVENT_UNLOCK_REQUEST": "event_unlock_request"
+}
